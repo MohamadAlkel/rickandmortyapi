@@ -7,5 +7,786 @@ exports[`<ListingsList /> should render ListingsList component correctly by matc
   <h2>
     The Rick and Morty
   </h2>
+  <div
+    className="sc-gsDKAQ bFAaUP"
+    data-testid="listing-results"
+  >
+    <div
+      className="sc-jRQBWg jxPbix"
+    >
+      <div
+        className="sc-iCfMLu hHdazg"
+      >
+        <div
+          className="sc-hKwDye hFFliC"
+          height="120px"
+          width="120px"
+        />
+        <div
+          className="sc-furwcr jaerMh"
+        >
+          <div
+            className="sc-hKwDye brgROZ"
+            height="25px"
+            width="200px"
+          />
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+          <div
+            className="sc-hKwDye lnmssy"
+            height="18px"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-crHmcD fWvZni"
+      >
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-jRQBWg jxPbix"
+    >
+      <div
+        className="sc-iCfMLu hHdazg"
+      >
+        <div
+          className="sc-hKwDye hFFliC"
+          height="120px"
+          width="120px"
+        />
+        <div
+          className="sc-furwcr jaerMh"
+        >
+          <div
+            className="sc-hKwDye brgROZ"
+            height="25px"
+            width="200px"
+          />
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+          <div
+            className="sc-hKwDye lnmssy"
+            height="18px"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-crHmcD fWvZni"
+      >
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-jRQBWg jxPbix"
+    >
+      <div
+        className="sc-iCfMLu hHdazg"
+      >
+        <div
+          className="sc-hKwDye hFFliC"
+          height="120px"
+          width="120px"
+        />
+        <div
+          className="sc-furwcr jaerMh"
+        >
+          <div
+            className="sc-hKwDye brgROZ"
+            height="25px"
+            width="200px"
+          />
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+          <div
+            className="sc-hKwDye lnmssy"
+            height="18px"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-crHmcD fWvZni"
+      >
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-jRQBWg jxPbix"
+    >
+      <div
+        className="sc-iCfMLu hHdazg"
+      >
+        <div
+          className="sc-hKwDye hFFliC"
+          height="120px"
+          width="120px"
+        />
+        <div
+          className="sc-furwcr jaerMh"
+        >
+          <div
+            className="sc-hKwDye brgROZ"
+            height="25px"
+            width="200px"
+          />
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+          <div
+            className="sc-hKwDye lnmssy"
+            height="18px"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-crHmcD fWvZni"
+      >
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-jRQBWg jxPbix"
+    >
+      <div
+        className="sc-iCfMLu hHdazg"
+      >
+        <div
+          className="sc-hKwDye hFFliC"
+          height="120px"
+          width="120px"
+        />
+        <div
+          className="sc-furwcr jaerMh"
+        >
+          <div
+            className="sc-hKwDye brgROZ"
+            height="25px"
+            width="200px"
+          />
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+          <div
+            className="sc-hKwDye lnmssy"
+            height="18px"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-crHmcD fWvZni"
+      >
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-jRQBWg jxPbix"
+    >
+      <div
+        className="sc-iCfMLu hHdazg"
+      >
+        <div
+          className="sc-hKwDye hFFliC"
+          height="120px"
+          width="120px"
+        />
+        <div
+          className="sc-furwcr jaerMh"
+        >
+          <div
+            className="sc-hKwDye brgROZ"
+            height="25px"
+            width="200px"
+          />
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+          <div
+            className="sc-hKwDye lnmssy"
+            height="18px"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-crHmcD fWvZni"
+      >
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+        <div
+          className="sc-iqseJM jkJLLB"
+        >
+          <span>
+            <div
+              className="sc-hKwDye jRGywQ"
+              height="18px"
+              width="70px"
+            />
+          </span>
+          <div
+            className="sc-hKwDye eCbppo"
+            height="18px"
+            width="100px"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="sc-jRQBWg jxPbix"
+      >
+        <div
+          className="sc-iCfMLu hHdazg"
+        >
+          <img
+            alt="profile image"
+            className="sc-gKclnd hDGBwx"
+            src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+          />
+          <div
+            className="sc-furwcr jaerMh"
+          >
+            <p
+              className="sc-pVTFL skEmA"
+            >
+              Rick Sanchez
+            </p>
+            <p
+              className="sc-jrQzAO iMqHfz"
+            >
+              Human
+               | 
+              Male
+            </p>
+            <p
+              className="sc-kDTinF gbIrPL"
+            >
+              Alive
+            </p>
+          </div>
+        </div>
+        <div
+          className="sc-crHmcD fWvZni"
+        >
+          <div
+            className="sc-iqseJM jkJLLB"
+          >
+            <span>
+              Location Name:
+            </span>
+            Citadel of Ricks
+          </div>
+          <div
+            className="sc-iqseJM jkJLLB"
+          >
+            <span>
+              Dimension:
+            </span>
+            unknown
+          </div>
+          <div
+            className="sc-iqseJM jkJLLB"
+          >
+            <span>
+              Location Type:
+            </span>
+            Space station
+          </div>
+          <div
+            className="sc-iqseJM jkJLLB"
+          >
+            <span>
+              Residents Number:
+            </span>
+            101
+          </div>
+          <div
+            className="sc-iqseJM jkJLLB"
+          >
+            <span>
+              First seen in:
+            </span>
+            Pilot
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

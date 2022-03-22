@@ -14,3 +14,8 @@ export type ProfileModule = {
     };
   };
 };
+
+export type ListingsListProps = {
+  page: number;
+  fetchInfo: (page: number) => Promise<any>;
+};

@@ -84,5 +84,24 @@ describe("<ListingResults /> and <Card/>", () => {
     component();
     expect(screen.getByTestId("listing-results").childElementCount).toEqual(1);
     expect(screen.getByAltText(/profile image/i)).toBeTruthy();
+    expect(screen.getByRole("img").src).toBe(
+      "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    );
+    //should have a name
+    expect(screen.getByText(/Rick Sanchez/i)).toBeTruthy();
+    //should have a species
+    expect(screen.getByText(/Human/i)).toBeTruthy();
+    //should have a gender
+    expect(screen.getByText(/Male/i)).toBeTruthy();
+    //should have a status
+    expect(screen.getByText(/Alive/i)).toBeTruthy();
+    //should have a location name
+    expect(screen.getByText(/Citadel of Ricks/i)).toBeTruthy();
+    //should have a location dimension
+    expect(screen.getByText(/unknown/i)).toBeTruthy();
+    //should have a location type
+    expect(screen.getByText(/Space station/i)).toBeTruthy();
+    //should have a episode
+    expect(screen.getByText(/Pilot/i)).toBeTruthy();
   });
 });
