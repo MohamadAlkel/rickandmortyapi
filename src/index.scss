@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: MuseoSans, "Helvetica Neue", Helvetica, Arial, "PingFang HK",
+    STHeitiTC-Light, Meiryo, "Microsoft JhengHei", sans-serif;
+}
+
+@keyframes skeleton-background-animate {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
+  }
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #242a44;
+  --tertiary-color: #c1bfd3;
+
+  --body: 1rem;
+  --subheading: 1.125rem;
+  --heading: 1.25rem;
+  --subtitle: 1.5rem;
+  --title: 2rem;
+}
