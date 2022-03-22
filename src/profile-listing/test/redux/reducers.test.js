@@ -4,6 +4,7 @@ import { FETCH_INFO } from "../../client/redux/constants";
 describe("Listings-list reducer", () => {
   const initalState = {
     profiles: "initial",
+    isFetching: false
   };
 
   test("should return passed state by default", () => {
@@ -22,6 +23,7 @@ describe("Listings-list reducer", () => {
     expect(reducer(undefined, action)).toEqual({
       page: 1,
       profiles: [],
+      isFetching: false
     });
   });
 
