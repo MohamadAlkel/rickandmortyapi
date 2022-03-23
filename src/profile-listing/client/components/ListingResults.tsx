@@ -1,13 +1,14 @@
-import React, { useContext, ReactElement, FC } from "react";
-import { ReactReduxContext } from "react-redux";
+import React, { ReactElement, FC } from "react";
 import { ResultsContainer, EmptyList } from "./ListingResults.style";
 import { CardsSkeleton } from "./Card.style";
 import Card from "./Card";
+import { connect } from "react-redux";
+import { ListingResultsProps } from "../helpers/typeHelper";
 
-const ListingResults: FC = (): ReactElement<void> => {
-  const { store } = useContext(ReactReduxContext);
-  const { profiles, isFetching } = store.getState().profileListing;
-
+const ListingResults: FC<ListingResultsProps> = ({
+  profiles,
+  isFetching,
+}: ListingResultsProps): ReactElement<void> => {
   return (
     <ResultsContainer data-testid="listing-results">
       {isFetching && <CardsSkeleton />}
@@ -16,7 +17,7 @@ const ListingResults: FC = (): ReactElement<void> => {
         <EmptyList>Oops! something Wrong happen!</EmptyList>
       )}
 
-      {profiles?.map((profile, index) => (
+      {profiles?.map((profile: any, index) => (
         <div key={index}>
           <Card profile={profile} />
         </div>
@@ -25,4 +26,9 @@ const ListingResults: FC = (): ReactElement<void> => {
   );
 };
 
-export default ListingResults;
+const mapStateToProps = (state) => ({
+  profiles: state.profileListing.profiles,
+  isFetching: state.profileListing.isFetching,
+});
+
+export default connect(mapStateToProps)(ListingResults);

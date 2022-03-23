@@ -12,7 +12,9 @@ import {
 } from "./Card.style";
 import { ProfileModule } from "../helpers/typeHelper";
 
-const Card: FC<ProfileModule> = (props: ProfileModule): ReactElement<void> => {
+const Card: FC<ProfileModule> = ({
+  profile,
+}: ProfileModule): ReactElement<void> => {
   const {
     name,
     species,
@@ -21,7 +23,18 @@ const Card: FC<ProfileModule> = (props: ProfileModule): ReactElement<void> => {
     image,
     nameOfChapter,
     location: { name: locationName, dimension, type, residents },
-  } = props.profile;
+  } = profile;
+
+  const LabelWithTextComponent = ({ text, label }) => {
+    return text ? (
+      <LabelWithText>
+        <span>{label}</span>
+        {text}
+      </LabelWithText>
+    ) : (
+      <></>
+    );
+  };
 
   return (
     <CardWrapper>
@@ -39,36 +52,14 @@ const Card: FC<ProfileModule> = (props: ProfileModule): ReactElement<void> => {
       </CardProfileInfo>
 
       <LabelWithTextWrapper>
-        {locationName && (
-          <LabelWithText>
-            <span>Location Name:</span>
-            {locationName}
-          </LabelWithText>
-        )}
-        {dimension && (
-          <LabelWithText>
-            <span>Dimension:</span>
-            {dimension}
-          </LabelWithText>
-        )}
-        {type && (
-          <LabelWithText>
-            <span>Location Type:</span>
-            {type}
-          </LabelWithText>
-        )}
-        {residents?.length && (
-          <LabelWithText>
-            <span>Residents Number:</span>
-            {residents?.length}
-          </LabelWithText>
-        )}
-        {nameOfChapter && (
-          <LabelWithText>
-            <span>First seen in:</span>
-            {nameOfChapter}
-          </LabelWithText>
-        )}
+        <LabelWithTextComponent label="Location Name:" text={locationName} />
+        <LabelWithTextComponent label="Dimension:" text={dimension} />
+        <LabelWithTextComponent label="Location Type:" text={type} />
+        <LabelWithTextComponent
+          label="Residents Number:"
+          text={residents?.length}
+        />
+        <LabelWithTextComponent label="First seen in:" text={nameOfChapter} />
       </LabelWithTextWrapper>
     </CardWrapper>
   );

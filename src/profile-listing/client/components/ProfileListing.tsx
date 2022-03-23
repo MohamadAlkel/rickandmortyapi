@@ -2,12 +2,13 @@ import React, { useEffect, FC, ReactElement } from "react";
 import { ProfileListingWrapper } from "./ProfileListing.style";
 import ListingResults from "./ListingResults";
 import { ListingsListProps } from "../helpers/typeHelper";
+import { connect } from "react-redux";
+import { fetchInfo } from "../redux/action";
 
-const ListingsList: FC<ListingsListProps> = (
-  props: ListingsListProps
-): ReactElement<void> => {
-  const { page, fetchInfo } = props;
-
+const ListingsList: FC<ListingsListProps> = ({
+  page,
+  fetchInfo,
+}: ListingsListProps): ReactElement<void> => {
   useEffect(() => {
     fetchInfo(page);
   }, [page]);
@@ -21,4 +22,12 @@ const ListingsList: FC<ListingsListProps> = (
   );
 };
 
-export default ListingsList;
+const mapStateToProps = (state) => ({
+  page: state.profileListing.page,
+});
+
+const mapDispatchToProps = {
+  fetchInfo: fetchInfo,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ListingsList);

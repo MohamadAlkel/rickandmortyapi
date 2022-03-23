@@ -1,12 +1,12 @@
 export type ProfileModule = {
   profile: {
-    name: string;
-    species: string;
-    status: string;
-    gender: string;
-    image: string;
+    name?: string;
+    species?: string;
+    status?: string;
+    gender?: string;
+    image?: string;
     nameOfChapter?: string;
-    location: {
+    location?: {
       name?: string;
       dimension?: string;
       type?: string;
@@ -17,5 +17,10 @@ export type ProfileModule = {
 
 export type ListingsListProps = {
   page: number;
-  fetchInfo: (page: number) => Promise<any>;
+  fetchInfo: (page: number) => any;
+};
+
+export type ListingResultsProps = {
+  profiles: Array<ProfileModule>;
+  isFetching: boolean;
 };
